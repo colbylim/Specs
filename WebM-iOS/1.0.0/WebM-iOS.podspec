@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
                       :sha1 => sha1,
                       :flatten => true }
 
-  s.dependency 'libnestegg', :git => 'https://github.com/brion/OGVKit-Specs.git'
+  s.dependency 'libnestegg'
 
    s.vendored_frameworks = "VPX.framework"
 end
